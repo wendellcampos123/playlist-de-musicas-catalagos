@@ -1,0 +1,60 @@
+body {
+    color: white;
+    background: black;
+    margin: 5px;
+    font-family: "Oswald", sans-serif;
+    margin-bottom: 100px;
+}
+
+header {
+    border-bottom: solid 1px rgb(133, 15, 37);
+    padding: 15px;
+    font-size: 40px;
+    color: rgb(224, 135, 61);
+}
+
+.chamativo {
+    background: rgb(94, 67, 13);
+    display: flex; 
+    padding: 70px 0; /* Simplificação do padding */
+    justify-content: center;
+}
+
+.titulo { 
+    margin-right: 7%;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+p {
+    font-size: 18px;
+}
+
+.videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 15px;
+}
+
+.categoria {
+    padding: 15px; /* Unificando o padding */
+    background: burlywood;
+    margin-top: 50px;
+}
+
+.videos img {
+    opacity: 0.5;
+    height: 220px;
+    transition: opacity 0.3s, border 0.3s; /* Efeito de transição */
+}
+
+.videos img:hover {
+    opacity: 1.0;
+    border: 1px solid red;
+}
+
+.categorias h2 {
+    color: rgb(184, 67, 20);
+}
